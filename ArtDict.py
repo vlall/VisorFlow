@@ -437,7 +437,7 @@ class ArtDict:
 	        d = 'http://www.youtube.com/user/Chris+Brown'
 	        e = 'http://last.fm/music/chrisbrown'
 	        f = 'false'    
-        elif userInput.lower() == 'word'.lower():
+        elif userInput.lower() == 'Chris Brown'.lower():
 	        a = 'http://twitter.com/users/show/chrisbrown.xml'
 	        b = 'http://www.facebook.com/chrisbrown'
 	        c = 'http://www.myspace.com/chrisbrown'
