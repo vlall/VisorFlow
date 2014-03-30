@@ -18,6 +18,7 @@ import tweepy
             #                                                              
             ################################################################
 def twitter_followers(userName)
+	# When you register your app with dev.twitter, you will recieve 4 keys you can use here.
     consumer_key="xxxxxxxx"
     consumer_secret="xxxxxxx"
 	
@@ -29,7 +30,7 @@ def twitter_followers(userName)
     api = tweepy.API(auth)
 
     followerCount = 0
-    for block in tweepy.Cursor(api.followers_ids, 'voltrus').items():
+    for block in tweepy.Cursor(api.followers_ids, userName).items():
         followerCount+=1;
 
 def webScrap(a,b,c,d,e,f,x,y,unit):
