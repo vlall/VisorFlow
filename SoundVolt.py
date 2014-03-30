@@ -17,6 +17,20 @@ import tweepy
             #    whilst Last.FM's update time is possibly >8 hours         
             #                                                              
             ################################################################
+def twitter_followers(userName)
+    consumer_key="xxxxxxxx"
+    consumer_secret="xxxxxxx"
+	
+    access_token="xxxxxxx"
+    access_token_secret="xxxxxxx"
+
+    auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
+    auth.set_access_token(access_token, access_token_secret)
+    api = tweepy.API(auth)
+
+    followerCount = 0
+    for block in tweepy.Cursor(api.followers_ids, 'voltrus').items():
+        followerCount+=1;
 
 def webScrap(a,b,c,d,e,f,x,y,unit):
 
@@ -46,15 +60,10 @@ def webScrap(a,b,c,d,e,f,x,y,unit):
         #A - Intializing the Name and gathering Twitter Followers
         
         if a != 'false':
-            pageA = urllib2.urlopen(a)
-            resultA = pageA.read()
 
-            artistName = re.sub("</", "", (resultA.split('name>')[1])) 
-
+            artistName = userInput 
             print('\n\tThis artist is ' + artistName + "." )
-
-            followerCount = re.sub("\D", "", (resultA.split('followers')[1])) 
-
+            followerCount = twitter_followers(a)
             print( artistName + ' has ' + followerCount + " Twitter followers.")
 
         else:
@@ -251,7 +260,7 @@ for letter in unit.split():
             ######################### 
             
 if userInput.lower() == 'lil wayne'.lower():
-    a = 'http://twitter.com/users/show/liltunechi.xml'
+    a = 'liltunechi'
     b = 'http://www.facebook.com/LilWayne'
     c = 'http://www.myspace.com/lilwayne'
     d = 'https://www.youtube.com/user/LilWayneVEVO'
