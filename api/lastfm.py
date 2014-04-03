@@ -21,5 +21,6 @@ def lastfm_artist_Stats(userName):
 
 def lastfm_playcount(userName):
 	return data['artist']['stats']['playcount']
-
-print lastfm_artist_Stats('cher')
+	
+if __name__ == '__main__':
+	print lastfm_artist_Stats('cher')
