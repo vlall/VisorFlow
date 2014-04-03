@@ -18,3 +18,6 @@ def twitterFollowers(userName):
   for block in tweepy.Cursor(api.followers_ids, 'userName').items():
   	followerCount+=1;
   return followerCount
+
+if __name__ == '__main__':
+    (liltunechi)
