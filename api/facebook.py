@@ -7,5 +7,6 @@ def fb_page_likes(userName):
 	data = json.load(json_data)
 	json_data.close()
 	return data['likes']
-
-print fb_page_likes('lilwayne')
+	
+if __name__ == '__main__':
+	print fb_page_likes('lilwayne')
