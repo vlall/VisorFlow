@@ -1,3 +1,15 @@
+'''
+################################################################
+ --- Volt social media scraper ---                                                                    
+     This specific script is outdated, created ~June, 2012.
+
+NOTE: For interval setting                                                                              
+While Facebook, Myspace, and Twitter update instantly,                                 
+YouTube(channel views) has a ~5 minute upate period,      
+while Last.FM's update time is possibly >8 hours         
+################################################################
+'''
+
 import urllib2
 import re
 import time;
@@ -7,16 +19,7 @@ from datetime import datetime
 import tweepy
 
 
-            ################################################################
-            #                                                                                                                            
-            #     --- Volt Social media scraper ---                                                                    
-            #                                                                                                                              
-            #     NOTE: For interval setting                                                                              
-            #    While Facebook, Myspace, and Twitter update instantly,                                 
-            #    YouTube(channel views) has a ~5 minute upate period,      
-            #    whilst Last.FM's update time is possibly >8 hours         
-            #                                                              
-            ################################################################
+            
 def twitter_followers(userName)
 	# When you register your app with dev.twitter, you will recieve 4 keys you can use here.
     consumer_key="xxxxxxxx"
@@ -254,9 +257,6 @@ for letter in unit.split():
             #                       #
             #    ---DICTIONARY---   #
             #    ----SECTION-----   #
-            #                       #
-            # Intialize variables   #
-            #      into main        #
             #                       #
             ######################### 
             
