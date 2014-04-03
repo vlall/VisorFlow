@@ -18,5 +18,6 @@ def spotify_artist_stats(userName):
 
 def spotify_playcount(userName):
 	return data['artist']['stats']['playcount']
-
-print spotify_artist_stats('cher')
+	
+if __name__ == '__main__':
+	print spotify_artist_stats('cher')
