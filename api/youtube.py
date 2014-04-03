@@ -27,5 +27,6 @@ def yt_channel_uploads(channelName):
 	return viewCount
  
 #Example pull:
-print yt_vid_info('CwLuDO_Cxfc')
-print yt_channel_uploads('smosh')
+if __name__ == '__main__':
+	print yt_vid_info('CwLuDO_Cxfc')
+	print yt_channel_uploads('smosh')
