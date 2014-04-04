@@ -1,12 +1,16 @@
 class ArtDict:
-    pass
     '''
     All the input values for a bunch of artists
     Edit, add artists.
-    File needs reformatting, this method is inefficient.
+
+    This is old and inefficient! turn into dictionary
     '''
+    def __init__(self, name):
+	    self.name = name
+
     def artInputs (self, userInput):
-        if userInput.lower() == 'lil wayne'.lower():
+    	
+        if self.name == 'lil wayne'.lower():
             a = 'http://twitter.com/users/show/liltunechi.xml'
             b = 'http://www.facebook.com/LilWayne'
             c = 'http://www.myspace.com/lilwayne'
@@ -14,7 +18,7 @@ class ArtDict:
             e = 'http://www.last.fm/music/Lil%27+Wayne'
             f = 'false'    
 
-        elif userInput.lower() == 'rihanna'.lower():
+        elif self.name == 'rihanna'.lower():
             a = 'http://twitter.com/users/show/rihanna.xml'
             b = 'http://www.facebook.com/rihanna' 
             c = 'www.myspace.com/rihanna'
@@ -22,7 +26,7 @@ class ArtDict:
             e = 'http://www.last.fm/music/Rihanna'
             f = 'false'    
 
-        elif userInput.lower() == 'lmfao'.lower():
+        elif self.name == 'lmfao'.lower():
             a = 'http://twitter.com/users/show/LMFAO.xml'
             b = 'http://www.facebook.com/LMFAO'
             c = 'http://www.myspace.com/LMFAO'
@@ -30,77 +34,77 @@ class ArtDict:
             e = 'http://last.fm/music/LMFAO'
             f = 'false'    
 
-        elif userInput.lower() == 'adele'.lower():
+        elif self.name == 'adele'.lower():
             a = 'http://twitter.com/users/show/officaladele.xml'
             b = 'http://www.facebook.com/Adele'
             c = 'http://www.myspace.com/Adelelondon'
             d = 'http://www.youtube.com/artist/Adele'
             e = 'http://last.fm/music/Adele'
             f = 'false'    
-        elif userInput.lower() == 'akon'.lower():
+        elif self.name == 'akon'.lower():
             a = 'http://twitter.com/users/show/akon.xml'
             b = 'http://www.facebook.com/akon'
             c = 'http://www.myspace.com/akon'
             d = 'http://www.youtube.com/artist/akon'
             e = 'http://last.fm/music/akon'
             f = 'false'    
-        elif userInput.lower() == 'chris brown'.lower():
+        elif self.name == 'chris brown'.lower():
             a = 'http://twitter.com/users/show/chrisbrown.xml'
             b = 'http://www.facebook.com/chrisbrown'
             c = 'http://www.myspace.com/chrisbrown'
             d = 'http://www.youtube.com/user/Chris+Brown'
             e = 'http://last.fm/music/chrisbrown'
             f = 'false'    
-        elif userInput.lower() == 'whitney houston'.lower():
+        elif self.name == 'whitney houston'.lower():
             a = 'false'
             b = 'http://www.facebook.com/whitneyhouston'
             c = 'http://www.myspace.com/whitneyhouston'
             d = 'http://www.youtube.com/user/whitneyhouston'
             e = 'http://last.fm/music/whitney+houston'
             f = 'false'    
-        elif userInput.lower() == 'pitbull'.lower():
+        elif self.name == 'pitbull'.lower():
             a = 'http://twitter.com/users/show/pitbull.xml'
             b = 'http://www.facebook.com/pitbull'
             c = 'http://www.myspace.com/pitbull'
             d = 'http://www.youtube.com/user/pitbull'
             e = 'http://last.fm/music/pitbull'
             f = 'false'    
-        elif userInput.lower() == 'eminem'.lower():
+        elif self.name == 'eminem'.lower():
             a = 'http://twitter.com/users/show/eminem.xml'
             b = 'http://www.facebook.com/eminem'
             c = 'http://www.myspace.com/eminem'
             d = 'http://www.youtube.com/user/eminem'
             e = 'http://last.fm/music/eminem'
             f = 'false'    
-        elif userInput.lower() == 'drake'.lower(): 
+        elif self.name == 'drake'.lower(): 
 	        a = 'http://twitter.com/users/show/drake.xml'
 	        b = 'http://www.facebook.com/drake'
 	        c = 'http://www.myspace.com/thisisdrake'
 	        d = 'http://www.youtube.com/user/drakeofficial'
 	        e = 'http://last.fm/music/drake' 
 	        f = 'false'
-        elif userInput.lower() == 'beyonce'.lower():
+        elif self.name == 'beyonce'.lower():
             a = 'http://twitter.com/users/show/Beyonce.xml'
             b = 'http://www.facebook.com/Beyonce'
             c = 'http://www.myspace.com/Beyonce'
             d = 'http://www.youtube.com/user/Beyonce'
             e = 'http://last.fm/music/beyonce'
             f = 'false'    
-        elif userInput.lower() == 'taylor swift'.lower():
+        elif self.name == 'taylor swift'.lower():
             a = 'http://twitter.com/users/show/taylorswift.xml'
             b = 'http://www.facebook.com/taylorswift'
             c = 'http://www.myspace.com/taylorswift'
             d = 'http://www.youtube.com/user/taylorswift'
             e = 'http://last.fm/music/taylor+swift'
             f = 'false'    
-        elif userInput.lower() == 'justin bieber'.lower():
+        elif self.name == 'justin bieber'.lower():
             a = 'http://twitter.com/users/show/justinbieber.xml'
             b = 'http://www.facebook.com/justinbieber'
             c = 'http://www.myspace.com/justinbieber'
             d = 'http://www.youtube.com/user/justinbieber'
             e = 'http://last.fm/music/justin+bieber'
             f = 'false'      
-        elif userInput.lower() == "adestria".lower():
+        elif self.name == "adestria".lower():
 	        a = 'http://twitter.com/#!/adestriaband'
 	        b = 'http://www.facebook.com/adestriamusic'
 	        c = 'http://www.myspace.com/adestriamusic'
@@ -108,343 +112,343 @@ class ArtDict:
 	        e = 'http://www.last.fm/music/Adestria'
 	        f = 'false'    
 
-        elif userInput.lower() == 'All That Remains'.lower():
+        elif self.name == 'All That Remains'.lower():
 	        a = 'http://twitter.com/users/show/atrhq.xml'
 	        b = 'http://www.facebook.com/allthatremains'
 	        c = 'http://www.myspace.com/allthatremains'
 	        d = 'http://www.youtube.com/user/allthatremainsVEVO'
 	        e = 'http://www.last.fm/music/All+That+Remains'
 	        f = 'false'   
-        elif userInput.lower() == 'Mathias Anderle'.lower():
+        elif self.name == 'Mathias Anderle'.lower():
 	        a = 'http://twitter.com/users/show/mathiasanderle.xml'
 	        b = 'http://www.facebook.com/mathiasanderlemusic'
 	        c = 'http://www.myspace.com/mathiasanderlemusic'
 	        d = 'http://www.youtube.com/user/mathiasanderlemusic'
 	        e = 'http://last.fm/music/Mathias+Anderle'
 	        f = 'false'    
-        elif userInput.lower() == 'Nicole Atkins'.lower():
+        elif self.name == 'Nicole Atkins'.lower():
 	        a = 'http://twitter.com/users/show/nicoleatkins'
 	        b = 'http://www.facebook.com/chrisbrown'
 	        c = 'http://www.myspace.com/nicoleatkins'
 	        d = 'http://www.youtube.com/user/nicoleatkinsVEVO'
 	        e = 'http://last.fm/music/Nicole+Atkins'
 	        f = 'false'    
-        elif userInput.lower() == 'Attila'.lower():
+        elif self.name == 'Attila'.lower():
 	        a = 'http://twitter.com/users/show/AttilaGA.xml'
 	        b = 'http://www.facebook.com/AttilaGA'
 	        c = 'http://www.myspace.com/attilaga'
 	        d = 'http://www.youtube.com/user/AttilaVEVO'
 	        e = 'http://last.fm/music/Attila'
 	        f = 'false'    
-        elif userInput.lower() == 'Joan Baez'.lower():
+        elif self.name == 'Joan Baez'.lower():
 	        a = 'http://twitter.com/users/show/joancbaez.xml'
 	        b = 'http://www.facebook.com/OfficialJoanBaez'
 	        c = 'http://www.myspace.com/joanbaez'
 	        d = 'http://youtube.com/joanbaez'
 	        e = 'http://last.fm/music/joan+baez'
 	        f = 'false'    
-        elif userInput.lower() == 'Dave Barnes'.lower():
+        elif self.name == 'Dave Barnes'.lower():
 	        a = 'http://twitter.com/users/show/davebarnesmusic'
 	        b = 'http://www.facebook.com/davebarnesmusic'
 	        c = 'http://www.myspace.com/davebarnes'
 	        d = 'http://www.youtube.com/user/DaveBarnesVEVO'
 	        e = 'http://last.fm/music/Dave+Barnes'
 	        f = 'false'    
-        elif userInput.lower() == 'Brad'.lower():
+        elif self.name == 'Brad'.lower():
 	        a = 'http://twitter.com/users/show/thebandbrad.xml'
 	        b = 'http://www.facebook.com/bradcorporation'
 	        c = 'http://www.myspace.com/bradcorporation'
 	        d = 'http://www.youtube.com/user/bradcorporation'
 	        e = 'http://www.last.fm/music/Brad'
 	        f = 'false'    
-        elif userInput.lower() == 'A Bullet for Pretty Boy'.lower():
+        elif self.name == 'A Bullet for Pretty Boy'.lower():
 	        a = 'http://twitter.com/#!/abfpb'
 	        b = 'https://www.facebook.com/abulletforprettyboy'
 	        c = 'http://www.myspace.com/abulletforprettyboy'
 	        d = 'http://www.youtube.com/abulletforprettyboy'
 	        e = 'http://www.last.fm/music/A+Bullet+For+Pretty+Boy'
 	        f = 'false'   
-        elif userInput.lower() == 'Vanessa Carlton'.lower():
+        elif self.name == 'Vanessa Carlton'.lower():
 	        a = 'http://twitter.com/users/show/vanessacarlton.xml'
 	        b = 'http://www.facebook.com/vanessacarlton'
 	        c = 'http://www.myspace.com/vanessacarlton'
 	        d = 'http://www.youtube.com/user/VanessaCarltonVEVO'
 	        e = 'http://last.fm/music/Vanessa+Carlton'
 	        f = 'false'    
-        elif userInput.lower() == 'Simon Collins'.lower():
+        elif self.name == 'Simon Collins'.lower():
 	        a = 'http://twitter.com/users/show/simoncollins_.xml'
 	        b = 'http://www.facebook.com/lightyearsmusic.simoncollins'
 	        c = 'http://www.myspace.com/simoncollins'
 	        d = 'http://www.youtube.com/user/simoncollinsmusic'
 	        e = 'http://last.fm/music/Simon+Collins'
 	        f = 'false'    
-        elif userInput.lower() == 'Casino Madrid'.lower():
+        elif self.name == 'Casino Madrid'.lower():
 	        a = 'http://twitter.com/users/show/casinomadrid.xml'
 	        b = 'http://www.facebook.com/casinomadrid'
 	        c = 'http://www.myspace.com/casinomadrid'
 	        d = 'http://www.youtube.com/user/csnmadrid'
 	        e = 'http://last.fm/music/casino+madrid'
 	        f = 'false'    
-        elif userInput.lower() == 'Chelsea Grin'.lower():
+        elif self.name == 'Chelsea Grin'.lower():
 	        a = 'http://twitter.com/users/show/chelseagrinUT.xml'
 	        b = 'http://www.facebook.com/ChelseaGrinMetal'
 	        c = 'http://www.myspace.com/chelseagrinmetal'
 	        d = 'http://www.youtube.com/user/chelseagrinTV'
 	        e = 'http://last.fm/music/Chelsea+Grin'
 	        f = 'false'    
-        elif userInput.lower() == 'Close to Home'.lower():
+        elif self.name == 'Close to Home'.lower():
 	        a = 'http://twitter.com/users/show/wearecth.xml'
 	        b = 'http://www.facebook.com/OfficialCloseToHome'
 	        c = 'http://www.myspace.com/cth'
 	        d = 'http://www.youtube.com/user/closetohome'
 	        e = 'http://last.fm/music/chrisbrown'
 	        f = 'false'    
-        elif userInput.lower() == 'The Crimson Armada'.lower(): 
+        elif self.name == 'The Crimson Armada'.lower(): 
 	        a = 'http://twitter.com/users/show/tcaband.xml'
 	        b = 'http://www.facebook.com/TCAband'
 	        c = 'http://www.myspace.com/thecrimsonarmada'
 	        d = 'http://www.youtube.com/user/thecrimsonarmadallc'
 	        e = 'http://last.fm/music/the+crimson+armada'
 	        f = 'false'    
-        elif userInput.lower() == 'The Dangerous Summer'.lower():
+        elif self.name == 'The Dangerous Summer'.lower():
 	        a = 'http://twitter.com/users/show/chrisbrown.xml'
 	        b = 'http://www.facebook.com/chrisbrown'
 	        c = 'http://www.myspace.com/chrisbrown'
 	        d = 'http://www.youtube.com/user/Chris+Brown'
 	        e = 'http://last.fm/music/chrisbrown'
 	        f = 'false'    
-        elif userInput.lower() == 'Dead Confederate'.lower():
+        elif self.name == 'Dead Confederate'.lower():
 	        a = 'http://twitter.com/users/show/chrisbrown.xml'
 	        b = 'http://www.facebook.com/chrisbrown'
 	        c = 'http://www.myspace.com/chrisbrown'
 	        d = 'http://www.youtube.com/user/Chris+Brown'
 	        e = 'http://last.fm/music/chrisbrown'
 	        f = 'false'    
-        elif userInput.lower() == 'Devin the Dude'.lower():
+        elif self.name == 'Devin the Dude'.lower():
 	        a = 'http://twitter.com/users/show/chrisbrown.xml'
 	        b = 'http://www.facebook.com/chrisbrown'
 	        c = 'http://www.myspace.com/chrisbrown'
 	        d = 'http://www.youtube.com/user/Chris+Brown'
 	        e = 'http://last.fm/music/chrisbrown'
 	        f = 'false'    
-        elif userInput.lower() == 'Kevin Devine'.lower():
+        elif self.name == 'Kevin Devine'.lower():
 	        a = 'http://twitter.com/users/show/chrisbrown.xml'
 	        b = 'http://www.facebook.com/chrisbrown'
 	        c = 'http://www.myspace.com/chrisbrown'
 	        d = 'http://www.youtube.com/user/Chris+Brown'
 	        e = 'http://last.fm/music/chrisbrown'
 	        f = 'false'    
-        elif userInput.lower() == 'Emerson, Lake and Palmer'.lower():
+        elif self.name == 'Emerson, Lake and Palmer'.lower():
 	        a = 'http://twitter.com/users/show/chrisbrown.xml'
 	        b = 'http://www.facebook.com/chrisbrown'
 	        c = 'http://www.myspace.com/chrisbrown'
 	        d = 'http://www.youtube.com/user/Chris+Brown'
 	        e = 'http://last.fm/music/chrisbrown'
 	        f = 'false'    
-        elif userInput.lower() == 'EndeverafteR'.lower():
+        elif self.name == 'EndeverafteR'.lower():
 	        a = 'http://twitter.com/users/show/chrisbrown.xml'
 	        b = 'http://www.facebook.com/chrisbrown'
 	        c = 'http://www.myspace.com/chrisbrown'
 	        d = 'http://www.youtube.com/user/Chris+Brown'
 	        e = 'http://last.fm/music/chrisbrown'
 	        f = 'false'    
-        elif userInput.lower() == 'For the Fallen Dreams'.lower(): 
+        elif self.name == 'For the Fallen Dreams'.lower(): 
 	        a = 'http://twitter.com/users/show/chrisbrown.xml'
 	        b = 'http://www.facebook.com/chrisbrown'
 	        c = 'http://www.myspace.com/chrisbrown'
 	        d = 'http://www.youtube.com/user/Chris+Brown'
 	        e = 'http://last.fm/music/chrisbrown'
 	        f = 'false'    
-        elif userInput.lower()== 'For Today'.lower():
+        elif self.name== 'For Today'.lower():
 	        a = 'http://twitter.com/users/show/chrisbrown.xml'
 	        b = 'http://www.facebook.com/chrisbrown'
 	        c = 'http://www.myspace.com/chrisbrown'
 	        d = 'http://www.youtube.com/user/Chris+Brown'
 	        e = 'http://last.fm/music/chrisbrown'
 	        f = 'false'    
-        elif userInput.lower() == 'Hit the Lights'.lower():
+        elif self.name == 'Hit the Lights'.lower():
 	        a = 'http://twitter.com/users/show/chrisbrown.xml'
 	        b = 'http://www.facebook.com/chrisbrown'
 	        c = 'http://www.myspace.com/chrisbrown'
 	        d = 'http://www.youtube.com/user/Chris+Brown'
 	        e = 'http://last.fm/music/chrisbrown'
 	        f = 'false'    
-        elif userInput.lower() == 'Just Surrender'.lower():
+        elif self.name == 'Just Surrender'.lower():
 	        a = 'http://twitter.com/users/show/chrisbrown.xml'
 	        b = 'http://www.facebook.com/chrisbrown'
 	        c = 'http://www.myspace.com/chrisbrown'
 	        d = 'http://www.youtube.com/user/Chris+Brown'
 	        e = 'http://last.fm/music/chrisbrown'
 	        f = 'false'    
-        elif userInput.lower() == 'Ocean Is Theory'.lower():
+        elif self.name == 'Ocean Is Theory'.lower():
 	        a = 'http://twitter.com/users/show/chrisbrown.xml'
 	        b = 'http://www.facebook.com/chrisbrown'
 	        c = 'http://www.myspace.com/chrisbrown'
 	        d = 'http://www.youtube.com/user/Chris+Brown'
 	        e = 'http://last.fm/music/chrisbrown'
 	        f = 'false'    
-        elif userInput.lower() == 'I Declare War'.lower():
+        elif self.name == 'I Declare War'.lower():
 	        a = 'http://twitter.com/users/show/chrisbrown.xml'
 	        b = 'http://www.facebook.com/chrisbrown'
 	        c = 'http://www.myspace.com/chrisbrown'
 	        d = 'http://www.youtube.com/user/Chris+Brown'
 	        e = 'http://last.fm/music/chrisbrown'
 	        f = 'false'    
-        elif userInput.lower() == 'Vanna'.lower():
+        elif self.name == 'Vanna'.lower():
 	        a = 'http://twitter.com/users/show/chrisbrown.xml'
 	        b = 'http://www.facebook.com/chrisbrown'
 	        c = 'http://www.myspace.com/chrisbrown'
 	        d = 'http://www.youtube.com/user/Chris+Brown'
 	        e = 'http://last.fm/music/chrisbrown'
 	        f = 'false'    
-        elif userInput.lower() == 'Angelique Kidjo'.lower():
+        elif self.name == 'Angelique Kidjo'.lower():
 	        a = 'http://twitter.com/users/show/chrisbrown.xml'
 	        b = 'http://www.facebook.com/chrisbrown'
 	        c = 'http://www.myspace.com/chrisbrown'
 	        d = 'http://www.youtube.com/user/Chris+Brown'
 	        e = 'http://last.fm/music/chrisbrown'
 	        f = 'false'    
-        elif userInput.lower() == 'Madina Lake'.lower():
+        elif self.name == 'Madina Lake'.lower():
 	        a = 'http://twitter.com/users/show/chrisbrown.xml'
 	        b = 'http://www.facebook.com/chrisbrown'
 	        c = 'http://www.myspace.com/chrisbrown'
 	        d = 'http://www.youtube.com/user/Chris+Brown'
 	        e = 'http://last.fm/music/chrisbrown'
 	        f = 'false'    
-        elif userInput.lower() == 'Man Made Machine'.lower():
+        elif self.name == 'Man Made Machine'.lower():
 	        a = 'http://twitter.com/users/show/chrisbrown.xml'
 	        b = 'http://www.facebook.com/chrisbrown'
 	        c = 'http://www.myspace.com/chrisbrown'
 	        d = 'http://www.youtube.com/user/Chris+Brown'
 	        e = 'http://last.fm/music/chrisbrown'
 	        f = 'false'    
-        elif userInput.lower() == 'Andy McKee'.lower():
+        elif self.name == 'Andy McKee'.lower():
 	        a = 'http://twitter.com/users/show/chrisbrown.xml'
 	        b = 'http://www.facebook.com/chrisbrown'
 	        c = 'http://www.myspace.com/chrisbrown'
 	        d = 'http://www.youtube.com/user/Chris+Brown'
 	        e = 'http://last.fm/music/chrisbrown'
 	        f = 'false'    
-        elif userInput.lower() == 'Jon McLaughlin'.lower():
+        elif self.name == 'Jon McLaughlin'.lower():
 	        a = 'http://twitter.com/users/show/chrisbrown.xml'
 	        b = 'http://www.facebook.com/chrisbrown'
 	        c = 'http://www.myspace.com/chrisbrown'
 	        d = 'http://www.youtube.com/user/Chris+Brown'
 	        e = 'http://last.fm/music/chrisbrown'
 	        f = 'false'    
-        elif userInput.lower() == 'Nonpoint'.lower():
+        elif self.name == 'Nonpoint'.lower():
 	        a = 'http://twitter.com/users/show/chrisbrown.xml'
 	        b = 'http://www.facebook.com/chrisbrown'
 	        c = 'http://www.myspace.com/chrisbrown'
 	        d = 'http://www.youtube.com/user/Chris+Brown'
 	        e = 'http://last.fm/music/chrisbrown'
 	        f = 'false'    
-        elif userInput.lower() == 'Norma Jean'.lower():
+        elif self.name == 'Norma Jean'.lower():
 	        a = 'http://twitter.com/users/show/chrisbrown.xml'
 	        b = 'http://www.facebook.com/chrisbrown'
 	        c = 'http://www.myspace.com/chrisbrown'
 	        d = 'http://www.youtube.com/user/Chris+Brown'
 	        e = 'http://last.fm/music/chrisbrown'
 	        f = 'false'    
-        elif userInput.lower() == 'P.O.D.'.lower():
+        elif self.name == 'P.O.D.'.lower():
 	        a = 'http://twitter.com/users/show/chrisbrown.xml'
 	        b = 'http://www.facebook.com/chrisbrown'
 	        c = 'http://www.myspace.com/chrisbrown'
 	        d = 'http://www.youtube.com/user/Chris+Brown'
 	        e = 'http://last.fm/music/chrisbrown'
 	        f = 'false'    
-        elif userInput.lower() == 'Saves the Day'.lower():
+        elif self.name == 'Saves the Day'.lower():
 	        a = 'http://twitter.com/users/show/chrisbrown.xml'
 	        b = 'http://www.facebook.com/chrisbrown'
 	        c = 'http://www.myspace.com/chrisbrown'
 	        d = 'http://www.youtube.com/user/Chris+Brown'
 	        e = 'http://last.fm/music/chrisbrown'
 	        f = 'false'    
-        elif userInput.lower() == 'Semi Precious Weapons'.lower():
+        elif self.name == 'Semi Precious Weapons'.lower():
 	        a = 'http://twitter.com/users/show/chrisbrown.xml'
 	        b = 'http://www.facebook.com/chrisbrown'
 	        c = 'http://www.myspace.com/chrisbrown'
 	        d = 'http://www.youtube.com/user/Chris+Brown'
 	        e = 'http://last.fm/music/chrisbrown'
 	        f = 'false'    
-        elif userInput.lower() == 'Such Gold'.lower():
+        elif self.name == 'Such Gold'.lower():
 	        a = 'http://twitter.com/users/show/chrisbrown.xml'
 	        b = 'http://www.facebook.com/chrisbrown'
 	        c = 'http://www.myspace.com/chrisbrown'
 	        d = 'http://www.youtube.com/user/Chris+Brown'
 	        e = 'http://last.fm/music/chrisbrown'
 	        f = 'false'    
-        elif userInput.lower() == 'Shadows Fall'.lower():
+        elif self.name == 'Shadows Fall'.lower():
 	        a = 'http://twitter.com/users/show/chrisbrown.xml'
 	        b = 'http://www.facebook.com/chrisbrown'
 	        c = 'http://www.myspace.com/chrisbrown'
 	        d = 'http://www.youtube.com/user/Chris+Brown'
 	        e = 'http://last.fm/music/chrisbrown'
 	        f = 'false'    
-        elif userInput.lower() == 'Ryan Shaw'.lower():
+        elif self.name == 'Ryan Shaw'.lower():
 	        a = 'http://twitter.com/users/show/chrisbrown.xml'
 	        b = 'http://www.facebook.com/chrisbrown'
 	        c = 'http://www.myspace.com/chrisbrown'
 	        d = 'http://www.youtube.com/user/Chris+Brown'
 	        e = 'http://last.fm/music/chrisbrown'
 	        f = 'false'    
-        elif userInput.lower() == 'Tina Sugandh'.lower():
+        elif self.name == 'Tina Sugandh'.lower():
 	        a = 'http://twitter.com/users/show/chrisbrown.xml'
 	        b = 'http://www.facebook.com/chrisbrown'
 	        c = 'http://www.myspace.com/chrisbrown'
 	        d = 'http://www.youtube.com/user/Chris+Brown'
 	        e = 'http://last.fm/music/chrisbrown'
 	        f = 'false'    
-        elif userInput.lower() == 'The Summer Set'.lower():
+        elif self.name == 'The Summer Set'.lower():
 	        a = 'http://twitter.com/users/show/chrisbrown.xml'
 	        b = 'http://www.facebook.com/chrisbrown'
 	        c = 'http://www.myspace.com/chrisbrown'
 	        d = 'http://www.youtube.com/user/Chris+Brown'
 	        e = 'http://last.fm/music/chrisbrown'
 	        f = 'false'    
-        elif userInput.lower() == 'Kelly Sweet'.lower():
+        elif self.name == 'Kelly Sweet'.lower():
 	        a = 'http://twitter.com/users/show/chrisbrown.xml'
 	        b = 'http://www.facebook.com/chrisbrown'
 	        c = 'http://www.myspace.com/chrisbrown'
 	        d = 'http://www.youtube.com/user/Chris+Brown'
 	        e = 'http://last.fm/music/chrisbrown'
 	        f = 'false'    
-        elif userInput.lower() == 'The Sword'.lower():
+        elif self.name == 'The Sword'.lower():
 	        a = 'http://twitter.com/users/show/chrisbrown.xml'
 	        b = 'http://www.facebook.com/chrisbrown'
 	        c = 'http://www.myspace.com/chrisbrown'
 	        d = 'http://www.youtube.com/user/Chris+Brown'
 	        e = 'http://last.fm/music/chrisbrown'
 	        f = 'false'    
-        elif userInput.lower() == 'Cesar Velazquez'.lower():
+        elif self.name == 'Cesar Velazquez'.lower():
 	        a = 'http://twitter.com/users/show/chrisbrown.xml'
 	        b = 'http://www.facebook.com/chrisbrown'
 	        c = 'http://www.myspace.com/chrisbrown'
 	        d = 'http://www.youtube.com/user/Chris+Brown'
 	        e = 'http://last.fm/music/chrisbrown'
 	        f = 'false'    
-        elif userInput.lower() == 'The Wiggles'.lower():
+        elif self.name == 'The Wiggles'.lower():
 	        a = 'http://twitter.com/users/show/chrisbrown.xml'
 	        b = 'http://www.facebook.com/chrisbrown'
 	        c = 'http://www.myspace.com/chrisbrown'
 	        d = 'http://www.youtube.com/user/Chris+Brown'
 	        e = 'http://last.fm/music/chrisbrown'
 	        f = 'false'    
-        elif userInput.lower() == 'Dar Williams'.lower():
+        elif self.name == 'Dar Williams'.lower():
 	        a = 'http://twitter.com/users/show/chrisbrown.xml'
 	        b = 'http://www.facebook.com/chrisbrown'
 	        c = 'http://www.myspace.com/chrisbrown'
 	        d = 'http://www.youtube.com/user/Chris+Brown'
 	        e = 'http://last.fm/music/chrisbrown'
 	        f = 'false'    
-        elif userInput.lower() == 'Chris Brown'.lower():
+        elif self.name == 'Chris Brown'.lower():
 	        a = 'http://twitter.com/users/show/chrisbrown.xml'
 	        b = 'http://www.facebook.com/chrisbrown'
 	        c = 'http://www.myspace.com/chrisbrown'
 	        d = 'http://www.youtube.com/user/Chris+Brown'
 	        e = 'http://last.fm/music/chrisbrown'
 	        f = 'false'    
-        elif userInput.lower() == 'Zappa Plays Zappa'.lower():
+        elif self.name == 'Zappa Plays Zappa'.lower():
 	        a = 'http://twitter.com/users/show/chrisbrown.xml'
 	        b = 'http://www.facebook.com/chrisbrown'
 	        c = 'http://www.myspace.com/chrisbrown'
