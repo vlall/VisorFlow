@@ -2,7 +2,7 @@ import json
 import urllib2
 from print_function import prettyprint
 
-class Facebook(object):
+class Facebook:
 
 	def __init__(self, name):
 		json_data = urllib2.urlopen('https://graph.facebook.com/%s' % (name))
