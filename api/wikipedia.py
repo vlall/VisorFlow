@@ -1,6 +1,7 @@
 import json
+import sys
 import urllib2
-from pprint import pprint
+from print_function import prettyprint
 
 class WikiObject:
 
@@ -21,5 +22,6 @@ class WikiObject:
 
 if __name__ == '__main__':
 	artist = WikiObject('Chile')
-	print artist.data
-	#prettyprint.prettyPrint(artist.data)  
+	reload(sys)
+   	sys.setdefaultencoding("utf-8")
+	prettyprint.prettyPrint(artist.data)  
