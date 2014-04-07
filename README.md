@@ -13,6 +13,7 @@ This script was orignally written in 2011 before many social media API updates. 
 - Youtube
 - Spotify
 - Last FM
+- Wikipedia
 
 ###Working on:
 - Google Keywords
