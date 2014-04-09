@@ -455,4 +455,132 @@ class ArtDict:
 	        d = 'http://www.youtube.com/user/Chris+Brown'
 	        e = 'http://last.fm/music/chrisbrown'
 	        f = 'false'   
+	        
+	        
+	        '''THE WORD ALIVE
+Youtube:  http://www.youtube.com/user/TheWordAliveBand
+Myspace: http://www.myspace.com/thewordalive
+Twitter: https://twitter.com/thewordalive
+Facebook: http://www.facebook.com/thewordalive
+RUFUS WAINWRIGHT
+Youtube: http://www.youtube.com/user/valentinalover
+MySpace : http://www.myspace.com/rufuswainwright
+Twitter: https://twitter.com/rufuswainwright
+Facebook: http://www.facebook.com/rufuswainwrightofficial
+ANDREW JACKSON JIHAD
+Youtube: http://www.youtube.com/user/BrantosIscariot
+MySpace : http://www.myspace.com/andrewjacksonjihad
+Twitter: https://twitter.com/ajjtheband
+Facebook: http://www.facebook.com/pages/Andrew-Jackson-Jihad/123094587723
+THE SUMMER SET
+Youtube: http://www.youtube.com/user/thesummerset
+MySpace : http://www.myspace.com/thesummerset
+Twitter: https://twitter.com/the_summer_set
+Facebook: http://www.facebook.com/thesummerset
+MAROON 5:
+Youtube: http://www.youtube.com/user/Maroon5
+MySpace : http://www.myspace.com/Maroon5
+Twitter: https://twitter.com/maroon5
+Facebook: http://www.facebook.com/maroon5
+DRAKE:
+Youtube:  http://www.youtube.com/user/DrakeVEVO
+MySpace : http://www.myspace.com/thisisdrake
+Twitter: https://twitter.com/drake
+Facebook: http://www.facebook.com/Drake
+RIHANNA:
+Youtube : http://www.youtube.com/user/Rihanna
+MySpace : http://www.myspace.com/rihanna
+Twitter: https://twitter.com/rihanna
+Facebook: http://www.facebook.com/rihanna
+CHILDISH GAMBINO:
+Youtube : http://www.youtube.com/user/IAMDONALDFAN
+MySpace : http://www.myspace.com/childishgambino
+Twitter: https://twitter.com/donaldglover
+Facebook: http://www.facebook.com/IamDonald
+mewithoutYou
+Youtube: http://www.youtube.com/user/jaja351
+MySpace : http://www.myspace.com/mewithoutyou
+Twitter: https://twitter.com/mewithoutYou
+Facebook: http://www.facebook.com/mewithoutyou
+La Dispute
+Youtube: http://www.youtube.com/user/xxBloodyMemories
+MySpace : http://www.myspace.com/ladispute
+Twitter: https://twitter.com/ladisputeband
+Facebook: http://www.facebook.com/LaDisputeMusic
+I Call Fives
+Youtube: None http://www.youtube.com/PureNoiseRecs
+MySpace : http://www.myspace.com/icallfives
+Twitter: https://twitter.com/icallfives
+Facebook: http://www.facebook.com/icallfives
+The Wonder Years
+Youtube: Hopeless Records Youtube
+MySpace : http://www.myspace.com/thewonderyears
+Twitter: https://twitter.com/twypoppunk
+Facebook: http://www.facebook.com/thewonderyearsband
+The Story So Far
+Youtube: http://www.youtube.com/user/TheStorySoFarVEVO
+MySpace : http://www.myspace.com/thestorysofarca
+Twitter: https://twitter.com/thestorysofarca
+Facebook: http://www.facebook.com/thestorysofarca
+State Champs
+Youtube:  http://www.youtube.com/user/statechampsny
+MySpace : http://www.myspace.com/statechampsny
+Twitter: https://twitter.com/state_champs
+Facebook: http://www.facebook.com/statechampsny
+Justin Bieber
+Youtube: http://www.youtube.com/user/kidrauhl
+MySpace : http://www.myspace.com/justinbieber
+Twitter: https://twitter.com/justinbieber
+Facebook: http://www.facebook.com/JustinBieber
+Cody Simpson
+Youtube: http://www.youtube.com/user/CodySimpsonMusic
+MySpace : http://www.myspace.com/codysimpsonmusic
+Twitter: https://twitter.com/codysimpson
+Facebook: http://www.facebook.com/codysimpsonmusic
+Bruce Springsteen
+Youtube: http://www.youtube.com/user/BruceSpringsteen
+MySpace : http://www.myspace.com/brucespringsteen
+Twitter: https://twitter.com/springsteen
+Facebook:  http://www.facebook.com/brucespringsteen
+Elton John
+Youtube: http://www.youtube.com/user/EltonJohnVEVO
+MySpace : http://www.myspace.com/eltonjohn
+Twitter: https://twitter.com/eltonjohndotcom
+Facebook: http://www.facebook.com/EltonJohn
+MxPx
+Youtube: http://www.youtube.com/user/mxpxvideoblog
+MySpace : http://www.myspace.com/mxpx
+Twitter: https://twitter.com/mxpx
+Facebook: http://www.facebook.com/MxPxPx
+Kanye West
+Youtube: http://www.youtube.com/user/kanyewest
+MySpace : http://www.myspace.com/kanyewest
+Twitter: https://twitter.com/kanyewest
+Facebook: http://www.facebook.com/pages/Kayne-West/111738558845479
+Rick Ross
+Youtube: http://www.youtube.com/user/OfficialRickRossTV
+MySpace : http://www.myspace.com/rickross
+Twitter: https://twitter.com/rickyrozay
+Facebook: http://www.facebook.com/rickross
+J Cole
+Youtube: http://www.youtube.com/user/JColeVEVO
+MySpace : http://www.myspace.com/jcole
+Twitter: https://twitter.com/jcolenc
+Facebook: http://www.facebook.com/JColeMusic
+Nickelback
+Youtube:  http://www.youtube.com/user/nickelbacktv
+MySpace : http://www.myspace.com/nickelback
+Twitter: https://twitter.com/nickelback
+Facebook: http://www.facebook.com/Nickelback
+Three Days Grace
+Youtube: http://www.youtube.com/user/ThreeDaysGraceVideos
+MySpace : http://www.myspace.com/threedaysgrace
+Twitter:  https://twitter.com/threedaysgrace
+Facebook: http://www.facebook.com/threedaysgrace
+Breaking Benjamin
+Youtube: http://www.youtube.com/user/BreakingBenjaminOFCL
+MySpace : http://www.myspace.com/breakingbenjamin
+Twitter: https://twitter.com/breakingbenj
+Facebook: http://www.facebook.com/BreakingBenjamin
+'''
         return(a,b,c,d,e,f)	        
