@@ -457,7 +457,8 @@ class ArtDict:
 	        f = 'false'   
 	        
 	        
-	        '''THE WORD ALIVE
+'''
+THE WORD ALIVE
 Youtube:  http://www.youtube.com/user/TheWordAliveBand
 Myspace: http://www.myspace.com/thewordalive
 Twitter: https://twitter.com/thewordalive
