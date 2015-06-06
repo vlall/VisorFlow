@@ -9,36 +9,20 @@ class Facebook:
 		self.data = json.load(json_data)
 		json_data.close()  
 		self.name = name
-
-	def display_name(self):
-		return self.name
-
-	def get_likes(self):
+		data = self.data
 		#You could do https://graph.facebook.com/%s?fields=likes
-		return self.data['likes']
-
-	def get_talking(self):
-		return self.data['talking_about_count']
-
-	def get_genre(self):
-		return self.data['genre']
-
-	def get_hometown(self):
-		return self.data['hometown']
-
-	def get_label(self):
-		return self.data['record_label']
-
-	def get_link(self):
-		return self.data['link']
-
-	def get_id(self):
-		return self.data['id']	
+		self.likes = data['likes']
+		self.talking =  data['talking_about_count']
+		self.genre = data['genre']
+		self.hometown = data['hometown']
+		self.label = data['record_label']
+		self.link = data['link']
+		self.id = data['id']
 
 if __name__ == '__main__':
 	artist = Facebook('lilwayne')
-	print artist.display_name() 
-	print artist.get_likes()
-	print artist.get_genre()
+	print artist.name
+	print artist.likes
+	print artist.genre
 	#prettyprint.prettyPrint(artist.data)  
 
