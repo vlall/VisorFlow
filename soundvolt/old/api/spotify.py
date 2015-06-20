@@ -1,6 +1,6 @@
 import json
 import urllib2
-from print_function import prettyprint
+from print_function.printpretty import prettyPrint
 
 class Spotify:
 
@@ -26,5 +26,5 @@ if __name__ == '__main__':
 	artist = Spotify('cher')
 	print artist.display_name() 
 	print artist.spotify_tags()
-	prettyprint.prettyPrint(artist.data)  
+	printpretty.prettyPrint(artist.data)  
 
