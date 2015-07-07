@@ -1,0 +1,373 @@
+
+{"arists":
+{
+"lil wayne":
+{
+"twitter":"liltunechi",
+"facebook":"lilwayne",
+"myspace":"lilwayne",
+"youtube":"/user/lilwaynevevo",
+"lastfm":"lil%27+wayne"
+},    
+
+"rihanna":    
+{
+"twitter":"rihanna",
+"facebook":"rihanna", 
+"myspace":"rihanna",
+"youtube":"/user/rihanna",
+"lastfm":"rihanna",
+},
+
+"lmfao":
+{
+"twitter":"lmfao",
+"facebook":"lmfao",
+"myspace":"lmfao",
+"youtube":"/user/lmfao",
+"lastfm":"lmfao"
+},
+
+"adele":
+{
+"twitter":"officaladele",
+"facebook":"adele",
+"myspace":"adelelondon",
+"youtube":"/artist/adele",
+"lastfm":"adele"
+},
+
+"akon":
+{
+"twitter":"akon",
+"facebook":"akon",
+"myspace":"akon",
+"youtube":"/artist/akon",
+"lastfm":"akon"
+},
+"chris brown":
+{            
+"twitter":"chrisbrown",
+"facebook":"chrisbrown",
+"myspace":"chrisbrown",
+"youtube":"/user/chris+brown",
+"lastfm":"chrisbrown"
+},
+"whitney houston":{
+"twitter":"false",
+"facebook":"whitneyhouston",
+"myspace":"whitneyhouston",
+"youtube":"/user/whitneyhouston",
+"lastfm":"whitney+houston",
+},   
+"pitbull":{
+"twitter":"pitbull",
+"facebook":"pitbull",
+"myspace":"pitbull",
+"youtube":"/user/pitbull",
+"lastfm":"pitbull"
+},  
+"eminem":{
+"twitter":"eminem",
+"facebook":"eminem",
+"myspace":"eminem",
+"youtube":"/user/eminem",
+"lastfm":"eminem"
+},    
+"drake" :{
+"twitter":"drake",
+"facebook":"drake",
+"myspace":"thisisdrake",
+"youtube":"/user/drakeofficial",
+"lastfm":"drake" 
+}, 
+"beyonce":{
+"twitter":"beyonce",
+"facebook":"beyonce",
+"myspace":"beyonce",
+"youtube":"/user/beyonce",
+"lastfm":"beyonce"
+},     
+"taylor swift":{
+"twitter":"taylorswift",
+"facebook":"taylorswift",
+"myspace":"taylorswift",
+"youtube":"/user/taylorswift",
+"lastfm":"taylor+swift"
+},    
+"justin bieber":{
+"twitter":"justinbieber",
+"facebook":"justinbieber",
+"myspace":"justinbieber",
+"youtube":"/user/justinbieber",
+"lastfm":"justin+bieber"
+},  
+"adestria":{
+"twitter":"http://twitter.com/#!/adestriaband",
+"facebook":"adestriamusic",
+"myspace":"adestriamusic",
+"youtube":"/adestriamusic",
+"lastfm":"adestria",
+
+},
+"all that remains":{
+"twitter":"atrhq",
+"facebook":"allthatremains",
+"myspace":"allthatremains",
+"youtube":"/user/allthatremainsvevo",
+"lastfm":"all+that+remains"
+},
+"mathias anderle":{
+"twitter":"mathiasanderle",
+"facebook":"mathiasanderlemusic",
+"myspace":"mathiasanderlemusic",
+"youtube":"/user/mathiasanderlemusic",
+"lastfm":"mathias+anderle"
+},
+"nicole atkins":{
+"twitter":"nicoleatkins",
+"facebook":"chrisbrown",
+"myspace":"nicoleatkins",
+"youtube":"/user/nicoleatkinsvevo",
+"lastfm":"nicole+atkins"
+},
+"attila":{
+"twitter":"attilaga",
+"facebook":"attilaga",
+"myspace":"attilaga",
+"youtube":"/user/attilavevo",
+"lastfm":"attila"
+},
+"joan baez":{
+"twitter":"joancbaez",
+"facebook":"officialjoanbaez",
+"myspace":"joanbaez",
+"youtube":"http://youtube.com/joanbaez",
+"lastfm":"joan+baez"
+},
+"dave barnes":{
+"twitter":"davebarnesmusic",
+"facebook":"davebarnesmusic",
+"myspace":"davebarnes",
+"youtube":"/user/davebarnesvevo",
+"lastfm":"dave+barnes"
+},
+"brad":{
+"twitter":"thebandbrad",
+"facebook":"bradcorporation",
+"myspace":"bradcorporation",
+"youtube":"/user/bradcorporation",
+"lastfm":"brad"
+},
+"a bullet for pretty boy":{
+"twitter":"http://twitter.com/#!/abfpb",
+"facebook":"https://www.facebook.com/abulletforprettyboy",
+"myspace":"abulletforprettyboy",
+"youtube":"/abulletforprettyboy",
+"lastfm":"a+bullet+for+pretty+boy"
+},
+"vanessa carlton":{
+"twitter":"vanessacarlton",
+"facebook":"vanessacarlton",
+"myspace":"vanessacarlton",
+"youtube":"/user/vanessacarltonvevo",
+"lastfm":"vanessa+carlton"
+},   
+"simon collins":{
+"twitter":"simoncollins_",
+"facebook":"lightyearsmusic.simoncollins",
+"myspace":"simoncollins",
+"youtube":"/user/simoncollinsmusic",
+"lastfm":"simon+collins"
+},
+"casino madrid":{
+"twitter":"casinomadrid",
+"facebook":"casinomadrid",
+"myspace":"casinomadrid",
+"youtube":"/user/csnmadrid",
+"lastfm":"casino+madrid"
+},
+
+"chelsea grin":{
+"twitter":"chelseagrinut",
+"facebook":"chelseagrinmetal",
+"myspace":"chelseagrinmetal",
+"youtube":"/user/chelseagrintv",
+"lastfm":"chelsea+grin"
+},       
+"close to home":{
+"twitter":"wearecth",
+"facebook":"officialclosetohome",
+"myspace":"cth",
+"youtube":"/user/closetohome",
+"lastfm":"chrisbrown"
+},
+"the crimson armada" :{
+"twitter":"tcaband",
+"facebook":"tcaband",
+"myspace":"thecrimsonarmada",
+"youtube":"/user/thecrimsonarmadallc",
+"lastfm":"the+crimson+armada"
+
+},
+"the word alive":
+{
+"youtube":  "/user/thewordaliveband",
+"myspace": "thewordalive",
+"twitter": "thewordalive",
+"facebook": "thewordalive"
+},
+"rufus wainwright":
+{
+"youtube": "/user/valentinalover",
+"myspace" : "rufuswainwright",
+"twitter": "rufuswainwright",
+"facebook": "rufuswainwrightofficial"
+},
+"andrew jackson jihad":
+{
+"youtube": "/user/brantosiscariot",
+"myspace" : "andrewjacksonjihad",
+"twitter": "ajjtheband",
+"facebook": "pages/andrew-jackson-jihad/123094587723"
+},
+"the summer set":
+{
+"youtube": "/user/thesummerset",
+"myspace" : "thesummerset",
+"twitter": "the_summer_set",
+"facebook": "thesummerset"
+},
+"maroon 5":
+{
+"youtube": "/user/maroon5",
+"myspace" : "maroon5",
+"twitter": "maroon5",
+"facebook": "maroon5"
+},
+"drake":
+{
+"youtube":  "/user/drakevevo",
+"myspace" : "thisisdrake",
+"twitter": "drake",
+"facebook": "drake"
+},
+"rihanna":
+{
+"youtube" : "/user/rihanna",
+"myspace" : "rihanna",
+"twitter": "rihanna",
+"facebook": "rihanna"
+},
+"childish gambino":
+{
+"youtube" : "/user/iamdonaldfan",
+"myspace" : "childishgambino",
+"twitter": "donaldglover",
+"facebook": "iamdonald"
+},
+"mewithoutyou":{
+"youtube": "/user/jaja351",
+"myspace" : "mewithoutyou",
+"twitter": "mewithoutyou",
+"facebook": "mewithoutyou"
+},
+"la dispute":{
+"youtube": "/user/xxbloodymemories",
+"myspace" : "ladispute",
+"twitter": "ladisputeband",
+"facebook": "ladisputemusic"
+},
+"i call fives":{
+"youtube": "/purenoiserecs",
+"myspace" : "icallfives",
+"twitter": "icallfives",
+"facebook": "icallfives"
+},
+"the wonder years":{
+"youtube": "hopeless+records+youtube",
+"myspace" : "thewonderyears",
+"twitter": "twypoppunk",
+"facebook": "thewonderyearsband"
+},
+"the story so far":{
+"youtube": "/user/thestorysofarvevo",
+"myspace" : "thestorysofarca",
+"twitter": "thestorysofarca",
+"facebook": "thestorysofarca"
+},
+"state champs":{
+"youtube":  "/user/statechampsny",
+"myspace" : "statechampsny",
+"twitter": "state_champs",
+"facebook": "statechampsny"
+},
+"justin bieber":{
+"youtube": "/user/kidrauhl",
+"myspace" : "justinbieber",
+"twitter": "justinbieber",
+"facebook": "justinbieber"
+},
+"cody simpson":{
+"youtube": "/user/codysimpsonmusic",
+"myspace" : "codysimpsonmusic",
+"twitter": "codysimpson",
+"facebook": "codysimpsonmusic"
+},
+"bruce springsteen":{
+"youtube": "/user/brucespringsteen",
+"myspace" : "brucespringsteen",
+"twitter": "springsteen",
+"facebook":  "brucespringsteen"
+},
+"elton john":{
+"youtube": "/user/eltonjohnvevo",
+"myspace" : "eltonjohn",
+"twitter": "eltonjohndotcom",
+"facebook": "eltonjohn"
+},	
+"mxpx":{
+"youtube": "/user/mxpxvideoblog",
+"myspace" : "mxpx",
+"twitter": "mxpx",
+"facebook": "mxpxpx"
+},
+"kanye west":{
+"youtube": "/user/kanyewest",
+"myspace" : "kanyewest",
+"twitter": "kanyewest",
+"facebook": "pages/kayne-west/111738558845479"
+},
+"rick ross":{
+"youtube": "/user/officialrickros,stv",
+"myspace" : "rickross",
+"twitter": "rickyrozay",
+"facebook": "rickross"
+},
+"j cole":{
+"youtube": "/user/jcolevevo",
+"myspace" : "jcole",
+"twitter": "jcolenc",
+"facebook": "jcolemusic"
+},
+"nickelback":{
+
+"youtube":  "/user/nickelbacktv",
+"myspace" : "nickelback",
+"twitter": "nickelback",
+"facebook": "nickelback"
+},
+"three days grace":
+{
+"youtube": "/user/threedaysgracevideos",
+"myspace" : "threedaysgrace",
+"twitter":  "threedaysgrace",
+"facebook": "threedaysgrace",
+"breaking benjamin":
+{
+"youtube": "/user/breakingbenjaminofcl",
+"myspace": "breakingbenjamin",
+"twitter": "breakingbenj",
+"facebook": "breakingbenjamin"
+}
+}

@@ -1,6 +1,5 @@
 import json
 import urllib2
-from print_function import prettyprint
 
 class Facebook:
 
@@ -24,5 +23,4 @@ if __name__ == '__main__':
 	print artist.name
 	print artist.likes
 	print artist.genre
-	#prettyprint.prettyPrint(artist.data)  
 
