@@ -3,7 +3,7 @@ SoundVolt
 SoundVolt is a python music statistic script designed to track artist
 trends on social media over a set interval of time.
 
-See artist_dict.json for list of dictionary values of artists. 
+See artists.json for dict of artists. 
 Scrape NextBigSound for more social media info.
 
 ###Supported APIs in JSON:
