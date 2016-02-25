@@ -14,19 +14,17 @@ class VisorFix(object):
 
     def edit_image(self, height, width):
         filename_queue = tf.train.string_input_producer(self.filenames)
-        self.filename, read_input = self.open_image(filename_queue)
+        self.filename, value = tf.WholeFileReader().read(filename_queue)
+        read_input = tf.image.decode_jpeg(value)
         resized = tf.image.resize_images(read_input, height, width, 1)
-        # resized = tf.image.rgb_to_grayscale(resized)
+        print resized
         resized.set_shape([height, width, 3])
+        #  resized = tf.image.rgb_to_grayscale(resized)
+        print resized
         preprocess = tf.image.flip_up_down(resized)
         #  preprocess = tf.image.random_brightness(resized,.2)
         self.preprocess = preprocess
         return preprocess
-
-    def open_image(self, filename_queue):
-        key, value = tf.WholeFileReader().read(filename_queue)
-        image = tf.image.decode_jpeg(value)
-        return key, image
 
 
 def main():
