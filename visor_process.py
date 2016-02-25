@@ -27,10 +27,6 @@ class VisorFix(object):
         image = tf.image.decode_jpeg(value)
         return key, image
 
-    def inputs(self):
-        return self.filename, self.flipped
-
-
 def main():
     cwd = os.getcwd()
     with tf.Graph().as_default():
@@ -39,7 +35,7 @@ def main():
         #  Change Dimenstions 28x28... Do tranformation...
         imageOps = VisorFix(imageList)
         imageOps.edit_image(28, 28)
-        image = imageOps.inputs()
+        image = imageOps.filename, imageOps.flipped
         init = tf.initialize_all_variables()
         sess = tf.Session()
         sess.run(init)
