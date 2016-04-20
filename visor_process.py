@@ -33,7 +33,7 @@ def main():
         #  Example data set
         imageList = ['face1.jpg']
         imageListFull = ['data/raw/' + i for i in imageList]
-        #  Change Dimenstions 28x28... Do tranformation...
+        #  Change Dimenstions 28x28...
         imageOps = VisorFix(imageListFull)
         editImage = imageOps.edit_image(500, 500)
         image = imageOps.filename, imageOps.edit_image(500, 500)
